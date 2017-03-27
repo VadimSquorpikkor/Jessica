@@ -1,0 +1,2180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.uniqdelagmail.jessica.OllActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="FTL"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:onClick="onClickSwitchF2lActivity" />
+
+        <Button
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="OLL"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:onClick="onClickSwitchOllActivity"
+            android:background="@android:color/holo_green_light" />
+
+        <Button
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="PLL"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:onClick="onClickSwitchPllActivity" />
+
+        <Button
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:onClick="onClickSwitchOthActivity" />
+    </LinearLayout>
+    <!--//////////////////////////////////////////////////////-->
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="1."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll01"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R2 D&apos; R U2&apos; R&apos; D R U2&apos; R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="2."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll02"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U R&apos; U&apos; Rw&apos; F R F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="3."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll03"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F&apos; Rw U R&apos; U&apos; Rw&apos; F R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="4."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll04"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U2 R U  R&apos; U R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="5."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll05"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2 R&apos; U&apos;  R U R&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="6."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll06"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2 R2 U&apos; R2 U&apos; R2 U2 R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="7a."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll07a"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2&apos; R&apos; U&apos; R U R&apos; U&apos; R U&apos; R&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="7b."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll07b"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U R U&apos; R&apos; U R U2 R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="8."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll08"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U R&apos; U&apos; M U R U&apos; R&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="9."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll09"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U&apos; M&apos; U R U&apos; Rw&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="10."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll10"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; R U R U R&apos; U&apos; M2&apos; U R U&apos; Rw&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="11."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll11"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2&apos; R2&apos; F R F&apos; U2 R&apos; F R F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="12."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll12"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R U R&apos; U&apos; F&apos; Fw R U R&apos; U&apos; Fw&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="13."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll13"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; R2 U R&apos;U Rw U2 Rw&apos; U M&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="14."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll14"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="M U&apos; Rw U2 Rw&apos; U&apos; R U&apos; R&apos; M&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="15."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll15"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; R U R U R&apos; U&apos; Rw R2&apos; F R F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="16."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll16"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R U R&apos; U y&apos; R&apos; U2 R&apos; F R F&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="17."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll17"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U R&apos; F R F&apos; U2 R&apos; F R F&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="18."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll18"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U&apos; R&apos; F R F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="19."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll19"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R U R&apos; U&apos; F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="20."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll20"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R B&apos; R&apos; U&apos; R U B U&apos; R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="21."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll21"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Lw&apos; U&apos; Rw&apos; F R F&apos; U&apos; L U F "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="22."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll22"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R2&apos; U&apos; R&apos; F R U R U&apos; F&apos;"
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; Dw&apos; Lw&apos; U&apos; L U R Rw&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="23."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll23"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U&apos; R&apos; F R F&apos; U R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="24."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll24"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F U R U&apos; R&apos; U R U&apos; R&apos; F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="25."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll25"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; F&apos; U&apos; F U&apos; R U R&apos; U R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="26."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll26"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R U R&apos; U&apos; x R U&apos; L U R&apos; U&apos; Rw&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="27."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll27"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2&apos; R2&apos; U&apos; R U&apos; R&apos; U2&apos; F R F&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="28."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll28"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Lw U&apos; R&apos; F&apos; R U R&apos; U&apos; F U"
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="x&apos; R U&apos; R&apos; F&apos; R U R&apos; x y R&apos; U R "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="29."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll29"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U Rw&apos; R U R&apos; U&apos; Rw U&apos; Rw&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="30."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll30"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; F R U R&apos; F&apos; R F U&apos; F&apos;"
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; F R U R&apos; F&apos; R y&apos; R U&apos; R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="31."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll31"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; U&apos; Rw R&apos; U&apos; R U Rw&apos; U Rw "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="32."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll32"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F U R U&apos; R&apos; F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="33."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll33"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U&apos; F&apos; U F R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="34."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll34"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U B&apos; U&apos; R&apos; U Lw U Lw&apos; "
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R Dw L&apos; Dw&apos; R&apos; U Lw U Lw&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="35."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll35"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U&apos; F U R U&apos; R&apos; F&apos; R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="36."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll36"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U R U&apos; R&apos; U&apos; R&apos; F R F&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="37."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll37"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U&apos; R U&apos; R&apos; U R U Lw U&apos; R&apos; U "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="38a."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll38a"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U R&apos; U R U&apos; R&apos; U R U2&apos; Rw&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="38b."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll38b"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U2&apos; R&apos; U&apos; R U R&apos; U&apos; R U&apos; Rw&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="39."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll39"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; U&apos; R U&apos; R&apos; U R U&apos; R&apos; U2 Rw "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="40."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll40"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; U Rw2 U&apos; Rw2&apos; U&apos; Rw2 U Rw&apos; "
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R B&apos; R B R2&apos; U2 F R&apos; F&apos; R "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="41."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll41"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; F R&apos; F&apos; R2 U2 y R&apos; F R F&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="42."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll42"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R U R&apos; U&apos; R U R&apos; U&apos; F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="43."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll43"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F&apos; L&apos; U&apos; L U L&apos; U&apos; L U F"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="44."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll44"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U2 R&apos; U&apos; R U&apos; Rw&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="45."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll45"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; U2 R U R&apos; U Rw"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="46."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll46"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U R&apos; U R U2&apos; Rw&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="47."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll47"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2&apos; R&apos; U2&apos; R&apos; F R F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="48."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll48"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw R2&apos; U&apos; R U&apos; R&apos; U2 R U&apos; Rw&apos; R"
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="M R&apos; U&apos; R U&apos; R&apos; U2 R U&apos; Rw&apos; R"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="49."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll49"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw&apos; R2 U R&apos; U R U2&apos; R&apos; U Rw R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="50."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll50"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R U&apos; R&apos; U&apos; R U R&apos; F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="51."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll51"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U2&apos; R2&apos; F R F&apos; R U2&apos; R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="52."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll52"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U R&apos; F R F&apos; R U2&apos; R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="53."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll53"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U&apos; R&apos; F R2 U R&apos; U&apos; F&apos;"
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U&apos; R y&apos; x&apos; R U&apos; R&apos; F R U R&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="54."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll54"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U R U2&apos; R&apos; F R U R&apos; U&apos; F&apos;"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="55."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll55"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R&apos; U R U2&apos; R&apos; Dw&apos; L&apos; U L U F"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="56."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll56"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="F R&apos; F R2 U&apos; R&apos; U&apos; R U R&apos; F2"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PicPlusAlgoritmLayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    style="@style/PictureLayout">
+
+                    <TextView
+                        style="@style/NumText"
+                        android:text="57."
+                        />
+
+                    <ImageView
+                        style="@style/Image"
+                        android:src="@drawable/oll57"
+                        android:longClickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    style="@style/AlgoritmTextLayout">
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="R U R&apos; U&apos; R U&apos; R&apos; F&apos; U&apos; F R U R&apos;"
+                        />
+
+                    <TextView
+                        style="@style/Text"
+                        android:text="Rw U R&apos; U&apos; Rw2&apos; R F R F&apos; Rw R&apos; "
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

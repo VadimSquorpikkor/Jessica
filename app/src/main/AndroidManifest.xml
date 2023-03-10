@@ -14,21 +14,13 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OllActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".OllActivity" />
         <activity android:name=".PllActivity" />
         <activity android:name=".OthActivity" />
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
     </application>
 
 </manifest>
